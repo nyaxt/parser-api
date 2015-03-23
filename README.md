@@ -13,7 +13,7 @@ Streaming HTML Parser API allows web developers to parse and construct DOM objec
     - [Con] Limited to resource fetch over HTTP/HTTPS
     - [Con] This feature is not available through Fetch API
     - [Con] Does not work on documents from service worker cache
-  - <iframe srcdoc>
+  - ```<iframe srcdoc>```
     - [Pro] Firefox also supports this.
     - [Con] The iframe needs to be displayed, thus create full render-tree, not just DOM.
 
